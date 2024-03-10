@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="0,1,2">
+
+        <TableRow>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_bt_switch"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardBackgroundColor="#75D10606"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="0dp"
+                app:contentPadding="8dp">
+
+                <TextView
+                    android:id="@+id/tv_bt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_bt_setting"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardBackgroundColor="#83EFBD0A"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="0dp"
+                app:contentPadding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="⚙️\nBluetooth settings"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+            </android.support.v7.widget.CardView>
+        </TableRow>
+
+        <TableRow>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_bt_qx_setting"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardBackgroundColor="#AED581"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="0dp"
+                app:contentPadding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="📳\nBluetooth and read-write access to mobile storage are required"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_bt_std_names"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardBackgroundColor="#8003A9F4"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="0dp"
+                app:contentPadding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="❤️❤️❤️\nSiddhant Thorve.\nAtharva Pawar.\nAkshay Patil."
+                    android:textColor="#000000"
+                    android:textSize="15dp" />
+
+            </android.support.v7.widget.CardView>
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_bt_about"
+                android:layout_width="0dp"
+                android:layout_height="180dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardBackgroundColor="#1DE9B6"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="0dp"
+
+                app:contentPadding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="📝\nAbout: ChatBT is a simple app for Bluetooth chatting and file sharing between nearby smartphones. Connect with your friends and share files without internet or data usage."
+                    android:textColor="#000000"
+                    android:textSize="15dp" />
+
+            </android.support.v7.widget.CardView>
+
+
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>
